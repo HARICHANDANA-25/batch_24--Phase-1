@@ -5,10 +5,7 @@
 LogFlow Portal is a Streamlit-based automation platform for:
 
 -  Log Collection
--  Log Validation
 -  Splunk HEC Data Ingestion
--  Duplicate Detection
--  Multi-Source Log Simulation
 
 It supports automated generation, upload, validation, and ingestion of logs into Splunk using the HTTP Event Collector (HEC).
 
