@@ -28,22 +28,6 @@ Generate realistic logs for:
 
 ---
 
-##  Log Validation
-
-Uploaded logs are validated using regex-based patterns before ingestion.
-
-Examples:
-
-| Source | Validation |
-|--------|-------------|
-| Firewall | action=ALLOW src=x.x.x.x |
-| Windows | EventID=4624 |
-| Linux | sshd, sudo, cron, kernel |
-| Switches | %SWITCH-5-NOTICE |
-| Routers | %BGP-5-ADJCHANGE |
-
----
-
 ##  Splunk HEC Integration
 
 Logs are ingested directly into Splunk using:
