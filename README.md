@@ -55,11 +55,11 @@ Logs are ingested directly into Splunk using:
 
 ---
 
-Installation:
+Install
 
 pip install requirements.txt
 
-Run:
+Run
 
 streamlit run app.py 
 
