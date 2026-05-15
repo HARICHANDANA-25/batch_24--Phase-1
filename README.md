@@ -1,22 +1,22 @@
 # batche-24--phase1
 
-# ⚡ LogFlow Portal
+#  LogFlow Portal
 
 LogFlow Portal is a Streamlit-based automation platform for:
 
-- 📥 Log Collection
-- 📤 Log Validation
-- 🚀 Splunk HEC Data Ingestion
-- 🔁 Duplicate Detection
-- 📊 Multi-Source Log Simulation
+-  Log Collection
+-  Log Validation
+-  Splunk HEC Data Ingestion
+-  Duplicate Detection
+-  Multi-Source Log Simulation
 
 It supports automated generation, upload, validation, and ingestion of logs into Splunk using the HTTP Event Collector (HEC).
 
 ---
 
-# 📌 Features
+#  Features
 
-## ✅ Log Generation
+##  Log Generation
 Generate realistic logs for:
 
 - Firewall Devices
@@ -28,7 +28,7 @@ Generate realistic logs for:
 
 ---
 
-## ✅ Log Validation
+##  Log Validation
 
 Uploaded logs are validated using regex-based patterns before ingestion.
 
@@ -44,7 +44,7 @@ Examples:
 
 ---
 
-## ✅ Splunk HEC Integration
+##  Splunk HEC Integration
 
 Logs are ingested directly into Splunk using:
 
@@ -55,11 +55,12 @@ Logs are ingested directly into Splunk using:
 
 ---
 
-## ✅ Duplicate Detection
+Installation:
 
-SHA-256 hashing prevents duplicate log ingestion.
+pip install requirements.txt
 
-Each ingested event hash is stored locally in:
+Run:
 
-```bash
-ingested_logs/
+streamlit run app.py 
+
+
